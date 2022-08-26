@@ -1,0 +1,11 @@
+framework module FABViewfw {
+  umbrella header "FABViewfw.h"
+
+  export *
+  module * { export * }
+}
+
+module FABViewfw.Swift {
+    header "FABViewfw-Swift.h"
+    requires objc
+}
